@@ -11,8 +11,4 @@ spring:
       ddl-auto: update
     show-sql: true
   application:
-    name: userProvdier
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8888/eureka,http://localhost:9999/eureka
+    name: userProvdier 
